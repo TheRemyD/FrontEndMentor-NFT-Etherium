@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; margin-block: 5rem 0;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!-- Etherium Card -->
+  <main class="card">
+    <section class="card__hero">
+      <img src="./images/image-equilibrium.jpg" alt="crystal cube on blue background" class="card__hero--image">
+      <div class="card__hero--overlay">
+        <img src="./images/icon-view.svg" alt="eye icon" class="hover--image">
+      </div>
+    </section>
+    <section class="card__details">
+      <h3 class="card__details--title hover-text">Equilibrium #3429</h3>
+      <p class="card__details--description">Our Equilibrium collection promotes balance and calm.</p>
+      <span class="card__details--value">0.041 ETH</span>
+      <span class="card__details--time-left">
+        <img src="./images/icon-clock.svg" alt="" class="card__details--clock">
+        3 days left
+      </span>
+    </section>
+    <section class="card__creator">
+      <img src="/images/image-avatar.png" alt="Jules Wyvern Avatar" class="card__creator--avatar">
+      <p class="card__creator--attribution">Creation of <span class="card__creator--name hover-text">Jules Wyvern</span></p>
+    </section>
+  </main>
+
+  <!-- Frontend Mentor Attribution -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.remydale.com" target="_blank">Remy Dale</a>.
+  </div>
+</body>
+</html>
