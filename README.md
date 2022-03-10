@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Code](https://github.com/TheRemyD/FrontEndMentor-NFT-Etherium)
+- Live Site URL: [Github Page for Etherium NFT Card](https://theremyd.github.io/FrontEndMentor-NFT-Etherium/)
 
 ### Built with
 - Semantic HTML5 markup
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Everything went smoothly for this project up until I was working on the image overlay. I was consistently getting a bit of space showing up under the image that I could not seem to get rid of. This led me to reaching out on Twitter and the online community did not fail. @intelagense figured out that by reducing font-size to zero on the parent element the space disappeared. A little digging on StackOverflow and I was pointed towards the fact that inline-block elements have space added to them. 
+Everything went smoothly for this project up until I was working on the image overlay. I was consistently getting a bit of space showing up under the image that I could not seem to get rid of. This led me to reaching out on Twitter and the online community did not fail. @intelagense figured out that by reducing font-size to zero on the parent element the space disappeared. A little digging on StackOverflow and I was pointed towards the fact that inline-block elements have space added to them.
 
 By changing the image to
 ```css
